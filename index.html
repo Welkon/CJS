@@ -1,1 +1,70 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="format-detection" content="telephone=no"><script>        ~ function () {            var docEl = document.documentElement;            var clientWidth = docEl.clientWidth;            var oMian = document.querySelector(".main");            if (clientWidth >= 750) {                oMian.style.margin = '0 auto';                docEl.style.width = "750px";                return;            }            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';        }();</script><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="./css/reset.min.css" type="text/css" rel="stylesheet" charset="utf-8"><link rel="stylesheet" href="./css/swiper-4.1.0.min.css" type="text/css" rel="stylesheet" charset="utf-8"><link rel="stylesheet" href="./css/index.min.css" type="text/css" rel="stylesheet" charset="utf-8"></head><body><div class="main"><div class="music" id="musicMenu"><audio src="./music/back.mp3" preload="none" loop id="musicAudio"></audio></div><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide page1"><img src="./img/img1/1-1.png"><img src="./img/img1/2.png"><img src="./img/img1/3.png"><img src="./img/img1/4.png"><img src="./img/img1/5.png"><img src="./img/img1/6.png"><img src="./img/img1/7.png"></div><div class="swiper-slide page2"><img src="./img/img2/1.png"><img src="./img/img2/2.png"><img src="./img/img2/3.png"><img src="./img/img2/4.png"><img src="./img/img2/5.png"><img src="./img/img2/6.png"><img src="./img/img2/7.png"><img src="./img/img2/8.png"><img src="./img/img2/9.png"></div><div class="swiper-slide page3"><img src="./img/img3/2.png"><img src="./img/img3/3.png"><img src="./img/img3/4.png"><img src="./img/img3/5.png"></div></div></div><div class="arrow"></div></div></body><script src="./js/fastclick.min.js" type="text/javascript" charset="utf-8"></script><script src="./js/swiper-4.1.0.min.js" type="text/javascript" charset="utf-8"></script><script src="./js/index.min.js" type="text/javascript" charset="utf-8"></script></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <script>
+        ~ function () {
+            var docEl = document.documentElement;
+            var clientWidth = docEl.clientWidth;
+            var oMian = document.querySelector(".main");
+            if (clientWidth >= 750) {
+                oMian.style.margin = '0 auto';
+                docEl.style.width = "750px";
+                return;
+            }
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+        }();
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css" rel="stylesheet" charset="utf-8">
+    <link rel="stylesheet" href="./css/swiper-4.1.0.min.css" type="text/css" rel="stylesheet" charset="utf-8">
+    <link rel="stylesheet" href="./css/index.css" type="text/css" rel="stylesheet" charset="utf-8">
+</head>
+
+<body>
+    <div class="main">
+        <div class="music" id="musicMenu">
+            <audio src="./music/back.mp3" preload="none" loop id="musicAudio"></audio>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide page1">
+                    <img src="./img/img1/1-1.png">
+                    <img src="./img/img1/2.png">
+                    <img src="./img/img1/3.png">
+                    <img src="./img/img1/4.png">
+                    <img src="./img/img1/5.png">
+                    <img src="./img/img1/6.png">
+                    <img src="./img/img1/7.png">
+                </div>
+                <div class="swiper-slide page2">
+                    <img src="./img/img2/1.png">
+                    <img src="./img/img2/2.png">
+                    <img src="./img/img2/3.png">
+                    <img src="./img/img2/4.png">
+                    <img src="./img/img2/5.png">
+                    <img src="./img/img2/6.png">
+                    <img src="./img/img2/7.png">
+                    <img src="./img/img2/8.png">
+                    <img src="./img/img2/9.png">
+                </div>
+                <div class="swiper-slide page3">
+                    <img src="./img/img3/2.png">
+                    <img src="./img/img3/3.png">
+                    <img src="./img/img3/4.png">
+                    <img src="./img/img3/5.png">
+                </div>
+            </div>
+        </div>
+        <div class="arrow"></div>
+    </div>
+</body>
+<script src="./js/fastclick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/swiper-4.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
